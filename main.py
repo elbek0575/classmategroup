@@ -251,7 +251,7 @@ def send_hourly_congratulations():
     for _ in range(24):  # Запускаем цикл на 24 часа
         for person in today_birthdays:
             send_congratulation_message(person["name"])
-        time.sleep(3600)  # Ждём один час
+        time.sleep(5400)  # Ждём один час 30 минут
 
 # Функция check_birthdays, которая запускает проверку и отправку поздравлений
 def check_birthdays():
