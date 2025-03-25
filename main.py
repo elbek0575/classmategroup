@@ -5,7 +5,8 @@ import time
 import logging
 import random
 from dotenv import load_dotenv
-from datetime import datetime, timedelta
+from datetime import datetime
+import pytz
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
@@ -233,9 +234,11 @@ def send_congratulation_message(name):
 
 # Функция для проверки, у кого сегодня день рождения
 def get_today_birthdays():
-    today = datetime.now().strftime("%d %B").split()
-    month_russian = months_rus.get(today[1], today[1])
-    today_translated = f"{today[0]} {month_russian}".lower()
+    tashkent_time = datetime.now(pytz.timezone("Asia/Tashkent"))
+    day = tashkent_time.strftime("%d")
+    month_eng = tashkent_time.strftime("%B")
+    month_russian = months_rus.get(month_eng, month_eng)
+    today_translated = f"{day} {month_russian}".lower()
     today_birthdays = [person for person in birthdays if person["date"].lower() == today_translated]
     return today_birthdays
 
