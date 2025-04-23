@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a42108fa-9435-4949-9a3f-b9873343de54" name="Changes" comment="первая фиксация" />
+    <list default="true" id="a42108fa-9435-4949-9a3f-b9873343de54" name="Changes" comment="первая фиксация">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +31,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/elbek0575/Classmates.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/elbek0575/classmategroup.git&quot;,
     &quot;accountId&quot;: &quot;e51c1116-c069-41fa-87f6-4ef87dcdcf06&quot;
   }
 }</component>
@@ -56,7 +59,7 @@
     &quot;Python.test_openai.executor&quot;: &quot;Run&quot;,
     &quot;Python.распознание текста с пдф.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/elbek/PycharmProjects/Bilag'on/botbilag'on&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
