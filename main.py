@@ -23,7 +23,7 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
-group_id = [-1001946744681, -1001757231258]  # ID группы
+group_id = [-1001946744681]  # ID группы
 
 # Словарь для перевода месяцев
 months_rus = {
